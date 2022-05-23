@@ -70,7 +70,6 @@ module.exports = {
                     movie.isInLocalDB = true;
                 }
             });
-            res.status(200).json(movies);
         }
     });
   }
